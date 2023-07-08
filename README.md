@@ -2,7 +2,6 @@
 
 ### [cafe](https://github.com/habbena/sql/tree/main/cafe)
 В рамках этого проекта была создана логическая и физическая схема ИС для работы сети ресторанов быстрого питания. 
-Сделаны выборки данных для анализа ситуации. 
 
 
 ### [pizzeria](https://github.com/habbena/sql/tree/main/pizzeria)
@@ -11,3 +10,5 @@
 - DML 
 - JOIN (day01 - day03)
 
+### books
+Проект с курса [Интерактивный тренажер SQL](https://stepik.org/course/63054/info)
