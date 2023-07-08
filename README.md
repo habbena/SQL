@@ -10,5 +10,5 @@
 - DML 
 - JOIN (day01 - day03)
 
-### books
+### [books](https://github.com/habbena/SQL/tree/main/books)
 Проект с курса [Интерактивный тренажер SQL](https://stepik.org/course/63054/info)
