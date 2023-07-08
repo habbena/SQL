@@ -119,7 +119,7 @@ Peter      |2022-01-03|Pizza Hut    |
  */
 
 /*
-TASK 03 !!!!!!!!!!!!!!!!!!!!! СЛОЖНО! 
+TASK 03 
 Let’s return back to Exercise #01, please rewrite your SQL by using
  the CTE (Common Table Expression) pattern. 
  Please move into the CTE part of your "day generator". 
@@ -320,7 +320,7 @@ Andrey |
  */	
 
 /*
-TASK 09 !!!!!!!!!!!!!!!!!!!!!!! BOTH!!!
+TASK 09 
 Please find the names of all females who ordered both
  pepperoni and cheese pizzas (at any time and in any pizzerias). 
  Make sure that the result is ordered by person name.
@@ -382,7 +382,7 @@ Nataly|
 
 
 /*
-TASK 10 !!!!!!!!!!!!! self-join
+TASK 10 
 Please find the names of persons who live on the same address. 
 Make sure that the result is ordered by 1st person, 2nd person's name
  and common address. 
