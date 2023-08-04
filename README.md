@@ -13,6 +13,6 @@
 ### [books](https://github.com/habbena/SQL/tree/main/books)
 Проект с курса [Интерактивный тренажер SQL](https://stepik.org/course/63054/info)
 
-### [shops](https://github.com/habbena/SQL/tree/main/books)
+### [shops](https://github.com/habbena/SQL/tree/main/shops_mm)
 Тестовое задание на вакансию Аналитик данных.    
 Созданы 3 таблицы по магазинам и написаны запросы. 
