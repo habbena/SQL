@@ -127,7 +127,7 @@ pepperoni pizza|
 mushroom pizza |
 cheese pizza   |
  */
-/* ВАРИАНТ 2* ??? как это работает????*/ 
+/* ВАРИАНТ 2* 
 SELECT pizza_name 
 FROM menu 
 UNION
