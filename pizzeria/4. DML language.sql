@@ -1,4 +1,4 @@
--- SQL_DAY03
+-- SQL_DAY0
 
 /*
 TASK 00
