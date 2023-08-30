@@ -7,46 +7,47 @@ SQL Bootcamp в School21 представляет собой введение в
 
 Система управления базами данных: **PostgreSQL**.     
 IDE: **DBeaver**. 
-В проекте DAY08 используется командная строка. 
-
 
 [Ссылка на схему БД](https://github.com/habbena/SQL/blob/main/images/pizzeria.png)
 
 
-**DAY00-DAY03**
-
+**1. Basic constructions**  
 Basic SQL syntax: use of SELECT, JOIN, UNION etc.
 
-**DAY04**
+**2.  Sets constructions**  
+UNION, EXCEPT and INTERSECT operators
 
-View, Materialized View: создание, обновление, удаление    
-Вывод всех представлений в схеме, процедура по удалению всех представлений в схеме
+**3. JOINs**  
 
+**4. Data manipulation language (DML)**  
 
-**DAY05 - DAY07**
+**5 View, Materialized View**   
+Cоздание, обновление, удаление представлений.   
+Вывод всех представлений в схеме, процедура по удалению всех представлений в схеме.
 
-Data Governance Policies, Database indexes, Database Sequences.
+**7  SQL Query Optimization**   
+DML, Indexes, EXPLAIN ANALYZE, SEQUENCE, Comments
+CONSTRAINTs
 
-**DAY08**
+**8 JOINs**
 
-Transactions and isolation levels.
+**9 Set of anomalies**   
+Lost Update Anomaly   
+Lost Update for Repeatable Read   
+Non-Repeatable Reads Anomaly   
+Non-Repeatable Reads for Serialization   
+Phantom Reads Anomaly     
+Phantom Reads for Repeatable Read    
+Deadlock     
 
-**DAY09**
+**10 Functions and triggers**   
+Создание и использование функциональных блоков в базах данных.
+Создание функции аудита для для трех команд одновременно: 
+INSERT, UPDATE, DELETE.  
 
-The task of the day is to create PostgreSQL functions to process the data.
+**11 Traveling Salesman Problem**
 
-**TEAM01**
-
-DWH, ETL process, data with anomalies.
-
-ex00
-
-The task is to write a SQL statement that returns 
-the total volume (sum of all money) of transactions 
-from user balance aggregated by user and balance type.
-
-ex01
-
+**12 Balance and currencies**     
 The task is to write a SQL statement that returns
 all Users, all Balance transactions (not including currencies that do not have a key in the Currency table) 
 with currency name and calculated value of currency in USD for the nearest day.
