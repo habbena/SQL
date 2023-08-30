@@ -22,6 +22,7 @@ Basic SQL syntax: use of SELECT, JOIN, UNION etc.
 
 Task is dedicated to virtual views and physical snapshots of data.
 
+
 **DAY05 - DAY07**
 
 Data Governance Policies, Database indexes, Database Sequences.
