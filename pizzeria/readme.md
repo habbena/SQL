@@ -20,7 +20,8 @@ Basic SQL syntax: use of SELECT, JOIN, UNION etc.
 
 **DAY04**
 
-Task is dedicated to virtual views and physical snapshots of data.
+View, Materialized View: создание, обновление, удаление    
+Вывод всех представлений в схеме, процедура по удалению всех представлений в схеме
 
 
 **DAY05 - DAY07**
