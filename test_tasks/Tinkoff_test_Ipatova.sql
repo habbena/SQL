@@ -33,7 +33,7 @@ VALUES
 /*
  1. Создать запрос, с помощью которого можно найти дубли в поле email из таблицы Sfaff.
  */
-	SELECT
+    SELECT
         email, COUNT(email)
     FROM
         staff
@@ -48,10 +48,9 @@ VALUES
   из таблицы Staff на момент запроса.
 */     
 SELECT  
-	name,
+    name,
     date_part('year', age(birthday))::int
-FROM 
-	staff
+FROM staff
 
 
 /*
@@ -61,11 +60,11 @@ FROM
 	
 SELECT j.name
 FROM jobtitles j
-JOIN staff	s using(jobtitle_id)
+JOIN staff s using(jobtitle_id)
 WHERE salary <> 
-			(SELECT 
-				max(salary) 
-			FROM staff)
+		(SELECT 
+			max(salary) 
+		FROM staff)
 ORDER BY 2 DESC
 LIMIT 1
 	
